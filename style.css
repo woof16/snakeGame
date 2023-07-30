@@ -1,0 +1,39 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background: #000000;
+}
+
+.wrapper {
+  width: 65vmin;
+  height: 70vmin;
+  display: flex;
+  overflow: hidden;
+  flex-direction: column;
+  justify-content: center;
+  background: #e77000;
+  border-radius: 5px;
+}
+
+.game-info {
+  color: #ffffff;
+  font-size: 1.2rem;
+  padding: 20px 30px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.screen {
+  height: 100%;
+  width: 100%;
+  display: grid;
+  background: #000000;
+}
